@@ -1,0 +1,28 @@
+#
+# UltimateBlacklist v1.0.0
+# By @Gurwi30 (𝓖𝓾𝓻𝔀𝓲𝟑𝟎#7746)
+#
+
+Database:
+  DBType: "SQLite" # AVAILABLE DATABASES ( SQLite, MySQL )
+
+  MySql: # THIS WILL WORK ONLY IF YOU SET UP MySQL IN THE DATABASE OPTIONS
+    storageHost: 'localhost'
+    storagePort: 3306
+    storageDatabase: 'ultimateblacklist_data'
+    storageUser: 'root'
+    storagePassword: ''
+    useSSL: true
+
+Blacklist:
+  Prefix: "&8&l(&4&lBLACKLIST&8&l) "
+  No-Args: "&7Correct usage: &c/blacklist <Player>"
+
+  Success-BL: "&c%blacklisted_player% &7was successfully blacklisted from the network!"
+  Success-UNBL: "&c%blacklisted_player% &7was successfully unblacklisted!"
+
+  Already-BL: "&c%player% &7is already blacklisted!"
+  Not-BL: "&c%player% &7is already blacklisted!"
+
+  Blacklist-alert: "&c%blacklisted_player% &7è stato permanentemente rimosso dal network!"
+  Blacklist-kick-msg: "&cYou are blacklisted from this network!"
