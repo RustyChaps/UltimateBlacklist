@@ -1,0 +1,3 @@
+name: UltimateBlacklist
+version: '${project.version}'
+main: me.gurwi.ultimateblacklist.UltimateBlacklist
